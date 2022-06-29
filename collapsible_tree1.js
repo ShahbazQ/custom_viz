@@ -10381,11 +10381,11 @@
                                 children: e && e.color_with_children || this.options.color_with_children.default,
                                 empty: e && e.color_empty || this.options.color_empty.default
                             },
-                            c = 100,
-                            f = 400,
-                            s = 7500,
-                            l = n.clientWidth - 10 - 10,
-                            h = n.clientHeight - 10 - 10,
+                            c = 10,
+                            f = 40,
+                            s = 750,
+                            l = n.clientWidth - 100 - 100,
+                            h = n.clientHeight - 100 - 100,
                             d = function(t, n) {
                                 var e = {};
                                 return t.forEach((function(t) {
