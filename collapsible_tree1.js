@@ -10384,8 +10384,8 @@
                             c = 10,
                             f = 40,
                             s = 750,
-                            l = n.clientWidth - 100 - 100,
-                            h = n.clientHeight - 100 - 100,
+                            l = n.clientWidth - 10 - 10,
+                            h = n.clientHeight - 10 - 10,
                             d = function(t, n) {
                                 var e = {};
                                 return t.forEach((function(t) {
@@ -10412,7 +10412,7 @@
                                     depth: 0
                                 }
                             }(t, u.fields.dimension_like),
-                            p = this.svg.html("").attr("width", l + 10 + 10).attr("height", h + 10 + 10).append("g").attr("transform", "translate(10,10)"),
+                            p = this.svg.html("").attr("width", l + 100 + 100).attr("height", h + 100 + 100).append("g").attr("transform", "translate(10,10)"),
                             v = r.tree().size([h, l]),
                             y = r.hierarchy(d, (function(t) {
                                 return t.children
