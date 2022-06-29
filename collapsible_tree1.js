@@ -10435,7 +10435,7 @@
                             e = n.descendants(),
                             r = n.descendants().slice(1);
                         e.forEach((function(t) {
-                            t.y = 180 * t.depth
+                            t.y = 270 * t.depth
                         }));
                         var i = p.selectAll("g.node").data(e, (function(t) {
                                 return t.id || (t.id = ++o)
