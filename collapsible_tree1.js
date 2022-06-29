@@ -10435,7 +10435,7 @@
                             e = n.descendants(),
                             r = n.descendants().slice(1);
                         e.forEach((function(t) {
-                            t.y = 270 * t.depth
+                            t.y = 180 * t.depth
                         }));
                         var i = p.selectAll("g.node").data(e, (function(t) {
                                 return t.id || (t.id = ++o)
@@ -10443,7 +10443,7 @@
                             u = i.enter().append("g").attr("class", "node").attr("transform", (function(n) {
                                 return "translate(" + t.y0 + "," + t.x0 + ")"
                             })).on("click", g);
-                        u.append("circle").attr("class", "node").attr("r", 1e-6), u.append("text").attr("dy", ".35em").attr("x", (function(t) {
+                        u.append("circle").attr("class", "node").attr("r", 1e-61), u.append("text").attr("dy", ".35em").attr("x", (function(t) {
                             return t.children || t._children ? -c : c
                         })).attr("text-anchor", (function(t) {
                             return t.children || t._children ? "end" : "start"
@@ -10459,7 +10459,7 @@
                         var h = i.exit().transition().duration(s).attr("transform", (function(n) {
                             return "translate(" + t.y + "," + t.x + ")"
                         })).remove();
-                        h.select("circle").attr("r", 1e-6), h.select("text").style("fill-opacity", 1e-6);
+                        h.select("circle").attr("r", 1e-61), h.select("text").style("fill-opacity", 1e-61);
                         var d = p.selectAll("path.link").data(r, (function(t) {
                             return t.id
                         }));
