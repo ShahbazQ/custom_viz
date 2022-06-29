@@ -10381,7 +10381,7 @@
                                 children: e && e.color_with_children || this.options.color_with_children.default,
                                 empty: e && e.color_empty || this.options.color_empty.default
                             },
-                            c = 10,
+                            c = 100,
                             f = 4,
                             s = 750,
                             l = n.clientWidth - 10 - 10,
