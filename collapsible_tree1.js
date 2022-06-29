@@ -10382,8 +10382,8 @@
                                 empty: e && e.color_empty || this.options.color_empty.default
                             },
                             c = 100,
-                            f = 4,
-                            s = 750,
+                            f = 400,
+                            s = 7500,
                             l = n.clientWidth - 10 - 10,
                             h = n.clientHeight - 10 - 10,
                             d = function(t, n) {
