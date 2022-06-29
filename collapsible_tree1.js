@@ -10412,7 +10412,7 @@
                                     depth: 0
                                 }
                             }(t, u.fields.dimension_like),
-                            p = this.svg.html("").attr("width", l + 10 + 10).attr("height", h + 10 + 10).append("g").attr("transform", "translate(100,100)"),
+                            p = this.svg.html("").attr("width", l + 10 + 10).attr("height", h + 10 + 10).append("g").attr("transform", "translate(10,10)"),
                             v = r.tree().size([h, l]),
                             y = r.hierarchy(d, (function(t) {
                                 return t.children
